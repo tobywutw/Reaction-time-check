@@ -2,10 +2,10 @@ import pygame
 import random
 import time
 pygame.init()
-#自主學習
+#自主學習抱歉程式碼可能有點亂
 WIDTH = 800
 HEIGHT = 600
-FPS = 60
+FPS = 67
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 GREEN = (34, 177, 76)
@@ -14,7 +14,7 @@ BLUE = (0, 102, 204)
 YELLOW = (255, 255, 0)
 GRAY = (128, 128, 128)
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("反應時間測試遊戲")
+pygame.display.set_caption("反應時間測試")
 clock = pygame.time.Clock()
 
 font_title = pygame.font.SysFont("Microsoft JhengHei", 80)
